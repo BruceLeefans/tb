@@ -1,0 +1,160 @@
+.body {
+	font: 12px/100%px "微软雅黑";
+
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	/* 清除A标签下划线 */
+}
+li {
+	list-style: none;
+	/* 清除Li标签小点 */
+}
+input {
+	border: 0 none;
+	/* 清除默认边框 */
+	outline: 0 none;
+	/* 清除外轮廓线 */
+}
+img {
+	border: 0 none;
+	/* 清除img自带的边框 */
+	vertical-align: middle;
+	/* 行内块与文字中线对齐 */
+}
+h1,
+h2,
+h3,
+h4,
+strong {
+	font-weight: normal;
+	/* 清除文字加粗效果 */
+}
+i,
+em {
+	font-weight: normal;
+	/* 清除字体斜体效果 */
+}
+.tonglan {
+	height: 30px;
+	background-color: black;
+}
+.top {
+	width: 1190px;
+	height: 140px;
+	background-color: pink;
+	margin: 0 auto;
+	position: relative;
+}
+.logo {
+	width: 190px;
+	height: 170px;
+	background-image: url("images/logo.v2.png");
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	background-color: #fff;
+}
+.sousuokuang {
+	width: 550px;
+	height: 33px;
+	border: solid 1px yellow;
+	/* 搜索框边框颜色 */
+	position: absolute;
+	left: 330px;
+	top: 25px;
+}
+.sousuokuang input {
+	width: 498px;
+	height: 33px;
+	float: left;
+}
+.sousuokuang a {
+	display: block;
+	width: 52px;
+	height: 33px;
+	float: left;
+}
+.sousuokuang p {
+	width: 52px;
+	height: 33px;
+	background-color: #f10215;
+	text-align: center;
+	line-height: 33px;
+	float: left;
+}
+.gouwuche {
+	width: 188px;
+	height: 33px;
+	position: absolute;
+	left: 902px;
+	top: 25px;
+	text-align: center;
+	line-height: 33px;
+	border: solid 1px yellow;
+	/* 购物车边框颜色 */
+}
+.gouwuche p {
+	width: 14px;
+	height: 14px;
+	border-radius: 4px;
+	background-color: #f10215;
+	text-align: center;
+	line-height: 14px;
+	position: absolute;
+	left: 140px;
+	top: 7px;
+}
+.gouwu a {
+	width: 188px;
+	height: 33px;
+	display: block;
+}
+.erwei {
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	right: 0;
+	top: -1px;
+	padding: 3px;
+}
+.wen li {
+	float: left;
+	margin-right: 10px;
+	font-size: 12px;
+}
+.wen {
+	position: absolute;
+	left: 330px;
+	top: 69px;
+}
+.zi li {
+	float: left;
+	margin-right: 30px;
+	font-size: 18px;
+}
+.zi {
+	position: absolute;
+	/* margin-right: 30px; */
+	top: 113px;
+	left: 229px;
+}
+.zi .like {
+	height: 10px;
+	border: solid 1px red;
+	margin-top: 6px;
+	margin-right: 20px;
+	margin-left: -10px;
+}
+.fupin {
+	width: 190px;
+	height: 40px;
+	background-image: url("images/广告.png");
+	position: absolute;
+	right: 0px;
+	top: 95px;
+}

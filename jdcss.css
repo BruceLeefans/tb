@@ -1,0 +1,162 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	/* 清除A标签下划线 */
+}
+li {
+	list-style: none;
+}
+input {
+	border: 0 none;
+	/* 清除默认边框 */
+	outline: 0 none;
+	/* 清除外轮廓线 */
+}
+img {
+	border: 0 none;
+	/* 清除Img自带的边框 */
+	vertical-align: middle;
+	/* 行内块与文字中线对齐 */
+}
+h1,
+h2,
+h3,
+h4,
+strong {
+	font-weight: normal;
+}
+i,
+em {
+	font-style: normal;
+}
+/* 通栏开始 */
+.tonglan {
+	height: 30px;
+	background-color:#e3e4e5;
+}
+.body {
+	width: 1190px;
+	height: 140px;
+	/* background-color: pink; */
+	margin: 0 auto;
+	position: relative;
+}
+.logo {
+	width: 190px;
+	height: 170px;
+	background-image: url("images/logo.v2.png");
+	bottom: 0;
+	position: absolute;
+
+}
+.logo a {
+	width: 190px;
+	height: 170px;
+	display: block;
+}
+
+.sousuokuang {
+	width: 550px;
+	height: 33px;
+	border: solid 1px #e3e4e5;
+	position: absolute;
+	left: 320px;
+	top: 25px;
+}
+.sousuokuang input {
+	width: 498px;
+	height: 33px;
+	background-color: #ffffff;
+	float: left;
+}
+.sousuokuang p {
+	width: 52px;
+	height: 33px;
+	background-color: ##f10215;
+	float: left;
+	text-align: center;
+	line-height: 33px;
+}
+.wen li {
+	float: left;
+	margin-right: 10px;
+}
+.wen {
+	position: absolute;
+	top: 69px;
+	left: 320px;
+}
+.wen li a {
+	color: #e1bea4;
+}
+.gouwu {
+	width: 186px;
+	height: 33px;
+	border: solid 1px #e3e4e5;
+	text-align: center;
+	line-height: 33px;
+	position: absolute;
+	left: 903px;
+	top: 25px;
+}
+.gouwu a {
+	display: block;
+	width: 186px;
+	height: 33px;
+}
+.gouwu p {
+	width: 14px;
+	height: 14px;
+	background-color: red;
+	border-radius: 7px;
+	text-align: center;
+	line-height: 14px;
+	position: absolute;
+	left: 140px;
+	top: 7px;
+}
+.erweima {
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	/* background-image: url("images/code.png"); */
+	left: 1121px;
+	top: -1px;
+	padding: 4px 3px 2px;
+	background-repeat: no-repeat;
+	/* background-color: #ccc; */
+}
+.erweima a {
+	width: 60px;
+	height: 60px;
+	display: block;
+}
+.zi li {
+	float: left;
+	margin-right: 30px;
+}
+.zi {
+	position: absolute;
+	left: 201px;
+	top: 110px;
+}
+.zi li a {
+	font-size: 18px
+}
+.zi .like {
+	height: 10px;
+	border-right: solid 1px #e3e4e5;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+.fupin {
+	width: 190px;
+	height: 40px;
+	position: absolute;
+	left: 1002px;
+	top: 95px;
+
+}
